@@ -1756,7 +1756,7 @@ function Foo(){}
 
 <img src="C:\Users\Tan\AppData\Roaming\Typora\typora-user-images\image-20210202143000822.png" alt="image-20210202143000822" style="zoom: 50%;" />
 
-- 函数的显式原型指向的对象默认是控Object实例对象(但Object不满足)
+- 函数的显式原型指向的对象默认是空Object实例对象(但Object不满足)
 
   ```javascript
   Fn.prototype instanceof Object//true
